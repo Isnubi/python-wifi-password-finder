@@ -90,7 +90,8 @@ You can install the **WLAN Password Finder** on _Windows_ by following these ste
     git clone https://github.com/Isnubi/python-wifi-password-finder.git
     ```
    
-    * If **Git** is not installed, you can install it from [here](https://git-scm.com/downloads) or download the repository as a zip file from [here](https://github.com/Isnubi/python-wifi-password-finder/archive/refs/heads/master.zip)
+    * If **Git** is not installed, you can install it from [here](https://git-scm.com/downloads) 
+    * or download the repository as a zip file from [here](https://github.com/Isnubi/python-wifi-password-finder/archive/refs/heads/master.zip)
 
 2. If you don't have **Python** installed, you can install it from [here](https://www.python.org/downloads/).
 
