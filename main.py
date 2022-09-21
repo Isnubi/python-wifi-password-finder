@@ -1,5 +1,4 @@
 import subprocess
-import PySimpleGUI as sg
 
 
 def get_wlan_ssid():
@@ -48,16 +47,6 @@ def get_wlan_infos(ssid):
     return key_content, auth_type
 
 
-sg.theme('DarkAmber')
-layout = [
-    [sg.Text('WLAN Password Finder')],
-    [sg.Combo(get_wlan_ssid(), key='-SSID-')],
-    [sg.Button('Ok'), sg.Button('Cancel')]
-]
-window = sg.Window('WLAN Password Finder', layout)
-event, values = window.read()
-window.close()
-
-wlan_infos = get_wlan_infos(values['-SSID-'])
-sg.popup('WLAN Informations for:', values['-SSID-'], "\nPassword:", wlan_infos[0],
-         "\nAuthentication type:", wlan_infos[1])
+"""
+put the UI process here
+"""
