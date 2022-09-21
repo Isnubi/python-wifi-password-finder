@@ -95,6 +95,11 @@ You can install the **WLAN Password Finder** on _Windows_ by following these ste
 
 2. If you don't have **Python** installed, you can install it from [here](https://www.python.org/downloads/).
 
+3. Install the following Python package if you want to use the GUI version.
+
+   ```sh
+   python -m pip install PySimpleGUI
+   ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -103,7 +108,9 @@ You can install the **WLAN Password Finder** on _Windows_ by following these ste
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Launch the **WLAN Password Finder** by double-clicking on the **main.py** file.
+Launch the **WLAN Password Finder** by double-clicking on the `main.py` file.
+
+If you want to do a manual scan of all the networks, launch the `manual_scan.py` file.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -112,7 +119,8 @@ Launch the **WLAN Password Finder** by double-clicking on the **main.py** file.
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Create UI for the tool
+- [x] Create UI for the tool
+- [ ] Create a beautiful UI (instead of PySimpleGUI)
 
 See the [open issues](https://github.com/Isnubi/python-wifi-password-finder/issues) for a full list of proposed features (and known issues).
 
