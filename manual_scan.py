@@ -34,3 +34,4 @@ for i in profiles:
             auth_type = "No authentication type found" if auth_type is None else auth_type
 
         print(ssid + ": " + key_content + " (" + auth_type + ")")
+input("")
