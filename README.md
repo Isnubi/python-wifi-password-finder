@@ -58,6 +58,10 @@
 ## About The Project
 
 
+**The tool is currently being update in order to change the UI.**
+**You can check it in [V2_Update branch](https://github.com/Isnubi/python-wifi-password-finder/tree/newUI).**
+
+
 This tool allow you to find the SSID, password and security type of all the wifi networks that are
 registered on the computer.<br>
 This tool works for _Windows systems_.<br>
