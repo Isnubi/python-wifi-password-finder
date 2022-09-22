@@ -79,7 +79,6 @@ def script_ui():
 
     ssid_list = get_wlan_ssid()
     ssid_list.sort()
-
     ssid_combo = ttk.Combobox(root, values=ssid_list, state="readonly")
     ssid_combo.pack(pady=10)
 
