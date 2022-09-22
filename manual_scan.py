@@ -25,7 +25,7 @@ for i in profiles:
                 ssid = a.split(':')[1][2:-2]
             ssid = "No SSID found" if ssid is None else ssid
 
-            if "Key Contant" in a:
+            if "Key Content" in a:
                 key_content = a.split(':')[1][1:-1]
             key_content = "No password found" if key_content is None else key_content
 

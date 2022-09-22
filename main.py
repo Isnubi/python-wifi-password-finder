@@ -12,7 +12,7 @@ def get_wlan_ssid():
         ['netsh', 'wlan', 'show', 'profiles']
     ).decode('utf-8', errors="backslashreplace").split('\n')
 
-    profiles = [i.split(':')[1][1:-1] for i in data if "Profil Tous les utilisateurs" in i]
+    profiles = [i.split(':')[1][1:-1] for i in data if "All User Profile" in i]
 
     ssid_list = []
     for i in profiles:
@@ -25,7 +25,7 @@ def get_wlan_ssid():
             ).decode('utf-8', errors="backslashreplace").split('\n')
 
             for a in profile_info:
-                if "Nom du SSID" in a:
+                if "SSID name" in a:
                     ssid = a.split(':')[1][2:-2]
                     break
                 ssid = "No SSID found" if ssid is None else ssid
@@ -46,11 +46,11 @@ def get_wlan_infos(ssid):
     ).decode('utf-8', errors="backslashreplace").split('\n')
 
     for a in profile_info:
-        if "Contenu de la cl" in a:
+        if "Key content" in a:
             key_content = a.split(':')[1][1:-1]
         key_content = "No password found" if key_content is None else key_content
 
-        if "Authentification" in a:
+        if "Authentication" in a:
             auth_type = a.split(':')[1][1:-1].split('\\xff')[0]
         auth_type = "No authentication type found" if auth_type is None else auth_type
 
