@@ -67,6 +67,8 @@ registered on the computer.<br>
 This tool works for _Windows systems_.<br>
 It using **netsh** command to get the informations.
 
+It is make with **Python** and **Tkinter**.
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
