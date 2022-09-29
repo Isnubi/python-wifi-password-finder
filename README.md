@@ -124,7 +124,9 @@ You can also use the executable files, in the [release](https://github.com/Isnub
 ## Roadmap
 
 - [x] Create UI for the tool
-- [ ] Create a beautiful UI (instead of PySimpleGUI)
+- [ ] Create a prettier UI
+- [ ] Usage of the tool on Linux
+- [ ] Usage of AirCrack-ng to crack the password detected by the tool
 
 See the [open issues](https://github.com/Isnubi/python-wifi-password-finder/issues) for a full list of proposed features (and known issues).
 
