@@ -63,7 +63,7 @@ registered on the computer.<br>
 This tool works for _Windows systems_.<br>
 It using **netsh** command to get the informations.
 
-It is make with **Python** and **Tkinter**.
+It is make with **Python 3.10** and **Tkinter**.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -95,7 +95,7 @@ You can install the **WLAN Password Finder** on _Windows_ by following these ste
     * If **Git** is not installed, you can install it from [here](https://git-scm.com/downloads) 
    or download the repository as a zip file from [here](https://github.com/Isnubi/python-wifi-password-finder/archive/refs/heads/master.zip)
 
-2. If you don't have **Python** installed, you can install it from [here](https://www.python.org/downloads/).
+2. If you don't have **Python 3.10** installed, you can install it from [here](https://www.python.org/downloads/).
 
 3. Install the following Python package if you want to use the GUI version.
 
