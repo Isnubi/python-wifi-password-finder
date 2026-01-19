@@ -82,7 +82,7 @@ def get_wlan_infos(ssid, language):
             auth_type = "No authentication type found" if auth_type is None else auth_type
     if language == "en_US":
         for a in profile_info:
-            if "Key content" in a:
+            if "Key Content" in a:
                 key_content = a.split(':')[1][1:-1]
             key_content = "No password found" if key_content is None else key_content
 
